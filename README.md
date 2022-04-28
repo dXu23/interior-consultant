@@ -41,14 +41,18 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-  Right [here](https://coldfix.dev/dev-challenges/interior-consultant/interior.html)
+
+Right [here](https://coldfix.dev/dev-challenges/interior-consultant/interior.html)
 
 - What was your experience?
-  This was a pretty hard challenge. 
+
+This was a pretty hard challenge because I wasn't sure from the beginning how to
+implement the mobile navigation menu. 
 
 - What have you learned/improved?
-  I learned how to use absolute and relative positioning to overlay a div over
-  an image.
+
+I learned how to use absolute and relative positioning to overlay a div over an image,
+as well as about CSS animations.
 
 - Your wisdom? :)
 
