@@ -12,10 +12,6 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
     <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
       Challenge
     </a>
@@ -65,7 +61,10 @@ Just HTML, CSS, and JS.
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
 ## Acknowledgements
-- [Kevin Powell](https://www.youtube.com/watch?v=HbBMp6yUXO0)
+- [Kevin Powell's Video on Responsive Navbar](https://www.youtube.com/watch?v=HbBMp6yUXO0)
+- [CSS Tricks Article](https://css-tricks.com/stop-animations-during-window-resizing/)
+- [Font Squirrel's Matcherator](https://fontsquirrel.com/matcherator)
+- [Grabc utility](http://www.muquit.com/muquit/software/grabc/grabc.html)
 
 ## Contact
 
