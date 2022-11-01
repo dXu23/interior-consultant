@@ -1,9 +1,4 @@
 
-/** Screen agnostic styling **/
-/*
- *
- */
-
 body {
   font-family: Montserrat, serif;
   background-color: #181719;
@@ -73,13 +68,14 @@ section > p {
 }
 
 #read-more {
-  font-size: max(1.3vw, 13px);
+  font-size: clamp(0.875rem, 0.94vw + 0.61rem, 1.5rem);
   font-weight: 600;
 }
 
 ul#primary-navigation {
   display: flex;
   font-weight: 600;
+  font-size: 1.125rem;
   /* grid-column-gap: 6vw; */
   list-style: none;
 }
@@ -102,18 +98,20 @@ ul#primary-navigation {
   fit-content: cover;
 }
 
-#designer-parent {
+#showcase {
   position: relative;
-  width: 55%;
-  left: 40%;
-  bottom: min(130px, 50vh);
 }
+
 
 #designer-card {
   background-color: #121113;
   /* aspect-ratio: 10 / 1; */
   padding: 5% 5% 3% 5%;
   position: absolute;
+  right: clamp(4px, calc(3% + 2vw), 35px);
+  width: clamp(300px, calc(50% + 1rem), 410px);
+  height: clamp(138px, calc(30% + 1rem), 189px);
+  bottom: clamp(-110px, calc(-20% - 2vmax), -80px);
 }
 
 #designer-card > img {
@@ -148,7 +146,8 @@ ul#primary-navigation {
 }
 
 footer {
-  margin-top: 5%;
+  text-align: center;
+  margin-top: 12vmax;
   margin-bottom: 3%;
 }
 
@@ -191,10 +190,6 @@ footer {
       background: hsl(0 0% 100% / 0.1);
       backdrop-filter: blur(1rem);
     }
-  }
-
-  #designer-parent {
-    left: 15%;
   }
 
   ul#primary-navigation[data-visible="true"] {
@@ -257,13 +252,6 @@ main {
   flex-direction: column;
 }
 
-/* Navigation bar */
-
-/*
-#primary-navigation[data-visible="true"] {
-  transform: translateX(0%);
-}
-*/
 
 /**
  * Desktop
@@ -276,7 +264,6 @@ main {
   
   header {
     justify-content: space-between;
-    /* gap: 20rem; */
   }
 
   body {
@@ -288,7 +275,6 @@ main {
   }
 
   #primary-navigation {
-    /* flex-shrink: 1; */
     gap: 6vw;
     margin: 0;
     padding-block: 2rem;
@@ -296,7 +282,6 @@ main {
   }
 
   main {
-    /* border: 1px solid red; */
     gap: 8rem;
     align-content: stretch;
     align-items: center;
@@ -307,7 +292,6 @@ main {
   main > div > div {
     position: relative;
     width: 35%;
-    /* border: 1px solid red; */
   
   }
 
@@ -317,7 +301,7 @@ main {
     width: max(45%, 340px);
   }
   
-  main > section:last-child {
+  #showcase {
     width: 70%;
     padding: 0;
   }
