@@ -1,95 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Lora:wght@200;500;700" />
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <header>
+      <a href="/">
+        <div id="logo">
+          THIS INTERIOR
+        </div>
+      </a>
+      <button id="mobile-nav-toggle" aria-controls="primary-navigation">
+        <div></div>
+        <div></div>
+        <div></div>
+      </button>
+      <nav>
+        <ul id="primary-navigation" data-visible="false">
+          <li><a class="active" href="/">Home</a></li>
+          <li><a href="/">Collection</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <main>
+      <section>
+        <h1>Modern Interior</h1>
         <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
+          A full-Service residential &amp;
+          commercial interior design and
+          staging company offering
+          professional organizing &amp;
+          eco-services
         </p>
-      </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+        <a id="read-more" href="/">Read more &xrarr;</a>
+      </section>
+      <section>
+        <img id="room" src="./images/photo1.png">
+        <div id="designer-parent">
+          <div id="designer-card">
+            <img id="designer-image" src="./images/photo2.png">
+            <div id="designer-name">Aliza Webber</div>
+            <div><small id="designer-role">Interior designer</small></div>
+
+            <p>
+              Designed in 2020 by
+              Aliza Webber
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <small>
+        created by <a href="https://github.com/dXu23">dXu23</a> &middot;
+        devChallenges.io
+      </small>
+    </footer>
+    <script src="index.js" defer></script>
   </body>
 </html>

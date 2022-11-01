@@ -2,13 +2,13 @@ const primaryNav = document.getElementById('primary-navigation');
 const navToggle = document.getElementById('mobile-nav-toggle');
 
 navToggle.addEventListener('click', () => {
-  const visibility = primaryNav.getAttribute('data-visible');
+  const visibility = primaryNav.dataset.visible;
 
   if (visibility === 'false') {
-    primaryNav.setAttribute('data-visible', 'true');
+    primaryNav.dataset.visible = 'true';
     navToggle.setAttribute('aria-expanded', 'true');
   } else {
-    primaryNav.setAttribute('data-visible', 'false');
+    primaryNav.dataset.visible = 'false';
     navToggle.setAttribute('aria-expanded', 'false');
   }
 
