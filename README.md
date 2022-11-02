@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://coldfix.dev/dev-challenges/interior-consultant/interior.html">
+    <a href="https://stirring-conkies-c6dae4.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -38,12 +38,12 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - Where can I see your demo?
 
-Right [here](https://coldfix.dev/dev-challenges/interior-consultant/interior.html)
+Right [here](https://stirring-conkies-c6dae4.netlify.app/)
 
 - What was your experience?
 
 This was a pretty hard challenge because I wasn't sure from the beginning how to
-implement the mobile navigation menu. 
+implement the mobile navigation menu.
 
 - What have you learned/improved?
 
@@ -54,7 +54,7 @@ as well as about CSS animations.
 
 ### Built With
 
-Just HTML, CSS, and JS. 
+Just HTML, CSS, and JS.
 
 ## Features
 
@@ -63,10 +63,8 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Acknowledgements
 - [Kevin Powell's Video on Responsive Navbar](https://www.youtube.com/watch?v=HbBMp6yUXO0)
 - [CSS Tricks Article](https://css-tricks.com/stop-animations-during-window-resizing/)
-- [Font Squirrel's Matcherator](https://fontsquirrel.com/matcherator)
-- [Grabc utility](http://www.muquit.com/muquit/software/grabc/grabc.html)
 
 ## Contact
 
-- Website [coldfix.dev](https://coldfix.dev)
-- GitHub [@dXu23](https://github.com/dXu23)
+- [Website](https://rad-sunshine-871fb5.netlify.app/)
+- [GitHub](https://github.com/dXu23)
